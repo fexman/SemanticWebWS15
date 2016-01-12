@@ -1,0 +1,336 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://dbpedia.org/ontology/> .
+@prefix ical: <http://www.w3.org/2002/12/cal/icaltzd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix ns1: <http://purl.org/net/provenance/ns#> .
+
+<http://linkedscience.org/teach/ns#hasDescription>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#hasDescription> ;
+  rdfs:subPropertyOf dc:description ;
+  ns0:related <http://dbpedia.org/page/Course_(education)> ;
+  rdfs:label "hasDescription"@en ;
+  rdfs:comment "hasDescription is subproperty of dc:description to specify needed descriptions of entities within the course, e.g. the description of course materials, assignments, etc."@en .
+
+<http://linkedscience.org/teach/ns#studyProgram>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#studyProgram> ;
+  rdfs:label "room"@en ;
+  ns0:related <http://dbpedia.org/resource/Room> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "Describes the study program which is associated with the course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#Material>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Material of the course.
+"""@en ;
+  rdfs:label "Material"@en .
+
+<http://linkedscience.org/teach/ns#StudyProgram>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """StudyProgram which the course is part of.
+"""@en ;
+  rdfs:label "StudyProgram"@en .
+
+<http://linkedscience.org/teach/ns#hasTitle>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#hasTitle> ;
+  rdfs:subPropertyOf dc:title ;
+  ns0:related <http://dbpedia.org/page/Course_(education)> ;
+  rdfs:label "hasTitle"@en ;
+  rdfs:comment "hasTitle is subproperty of dc:title  to specify needed titles of entities within the course, e.g. the title of course materials, assignments, etc."@en .
+
+<http://linkedscience.org/teach/ns#Room>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Room where the course is taking place.
+"""@en ;
+  rdfs:label "Room"@en .
+
+<http://linkedscience.org/teach/ns#deadlineReviewReport>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#deadlineReviewReport> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "deadlineReviewReport is an abstract property to explicate the deadline for review reports (opponent works)."@en ;
+  rdfs:label "deadlineReviewReport"@en .
+
+<http://linkedscience.org/teach/ns#arrangedAt>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#arrangedAt> ;
+  rdfs:label "arrangedAt"@en ;
+  rdfs:range ical: ;
+  rdfs:domain owl:thing ;
+  rdfs:comment """arrangedAt is an abstract property to explicate the date/time when the seminar is arranged at. It can be defined as in the following example:
+  http://www.w3.org/TR/rdfcal/#L21805"""@en .
+
+<http://linkedscience.org/teach/ns#notArrangedAt>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#notArrangedAt> ;
+  rdfs:label "notArrangedAt"@en ;
+  rdfs:range xsd:datetime ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "notArrangedAt is an abstract property to explicate the date/time when the seminar has an exception in its schedule and thus is not arranged at."@en .
+
+<http://linkedscience.org/teach/ns#deadline>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#deadline> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "deadline is an abstract property explicate the deadline for a draft project report."@en ;
+  rdfs:label "deadline"@en .
+
+<http://linkedscience.org/teach/ns#deadlineFinalReport>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#deadlineFinalReport> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "deadlineFinalReport is an abstract property to explicate the deadline for a final project report."@en ;
+  rdfs:label "deadlineFinalReport"@en .
+
+<http://linkedscience.org/teach/ns#academicTerm>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#academicTerm> ;
+  rdfs:label "academicTerm"@en ;
+  ns0:related <http://dbpedia.org/page/Academic_term> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "academicTerm is an abstract property to express the academic term (e.g. Summer 2011) of the course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#grading>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#grading> ;
+  rdfs:label "grading"@en ;
+  ns0:related <http://dbpedia.org/resource/Grading> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "grading is an abstract property to relate the course/seminar to the description about its grading."@en .
+
+<http://linkedscience.org/teach/ns#deadlineDraftReport>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#deadlineDraftReport> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "deadlineDraftReport is an abstract property explicate the deadline for a draft project report."@en ;
+  rdfs:label "deadlineDraftReport"@en .
+
+<http://linkedscience.org/teach/ns#reviewTemplate>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#reviewTemplate> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "reviewTemplate is an abstract property to relate a review template to the course/seminar so that students may use it to write their reviews of other student's reports."@en ;
+  rdfs:label "reviewTemplate"@en .
+
+<http://linkedscience.org/teach/ns#teacher>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#teacher> ;
+  rdfs:label "teacher"@en ;
+  ns0:related <http://dbpedia.org/resource/TEACHER> ;
+  rdfs:range owl:thing ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "teacher is an abstract property to relate a teacher to a course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#weeklyHours>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#weeklyHours> ;
+  rdfs:label "weeklyHours"@en ;
+  ns0:related <http://de.dbpedia.org/resource/Semesterwochenstunde> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "weeklyHours is an abstract property to express the number of weekly hours for the teaching."@en .
+
+<http://linkedscience.org/teach/ns#Assignment>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Assignment of a course, for example an exercise.
+"""@en ;
+  rdfs:label "Assignment"@en .
+
+<http://linkedscience.org/teach/ns#StudentGroup>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """StudentGroup of the course.
+"""@en ;
+  rdfs:label "StudentGroup"@en .
+
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf>
+  a foaf:Person ;
+  foaf:homepage <http://ifgi.uni-muenster.de/~j_tram02/>, <http://www.xing.com/profile/Andres_Westermann> ;
+  foaf:name "Andres Westermann"@en, "Johannes Trame"@en .
+
+<http://linkedscience.org/teach/ns#room>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#room> ;
+  rdfs:label "room"@en ;
+  ns0:related <http://dbpedia.org/resource/Room> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "room is an abstract property to express the room where the course/seminar takes place."@en .
+
+<http://linkedscience.org/teach/ns#teacherOf>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#teacherOf> ;
+  rdfs:label "teacherOf"@en ;
+  ns0:related <http://dbpedia.org/resource/TEACHER> ;
+  rdfs:range owl:thing ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "teacherOf is an abstract property to relate a teacher to a course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#Student>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Student of the course.
+"""@en ;
+  rdfs:label "Student"@en .
+
+<http://linkedscience.org/teach/ns#courseTitle>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#courseTitle> ;
+  rdfs:subPropertyOf dc:title ;
+  ns0:related <http://dbpedia.org/page/Course_(education)> ;
+  rdfs:label "courseTitle"@en ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "courseTitle is subproperty of dc:title to specify the course title"@en .
+
+<http://linkedscience.org/teach/ns#module>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#module> ;
+  rdfs:label "room"@en ;
+  ns0:related <http://dbpedia.org/resource/Module> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "Describes the module of the study program with which the course/seminar is associated."@en .
+
+<http://linkedscience.org/teach/ns#studentGroup>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#studentGroup> ;
+  rdfs:label "studentGroup"@en ;
+  ns0:related <http://dbpedia.org/resource/TEACHER> ;
+  rdfs:range foaf:Group ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "studentGroup is an abstract property to relate a student group to the course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#reading>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#reading> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "reading is an abstract property to relate required readings to the course/seminar."@en ;
+  rdfs:label "reading"@en .
+
+<http://linkedscience.org/teach/ns#bookingNumber>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#bookingNumber> ;
+  rdfs:subPropertyOf dc:description ;
+  ns0:related <http://dbpedia.org/page/Course_(education)> ;
+  rdfs:label "bookingNumber"@en ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "bookingNumber is an abstract property to uniquely identify the course. This identifier should be defined and provided by the operator of the course."@en .
+
+<http://linkedscience.org/teach/ns#nextReading>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#nextReading> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "nextReading is an abstract property for dynamically stating the reading required to be read by the next session of the course/seminar."@en ;
+  rdfs:label "nextReading"@en .
+
+<http://linkedscience.org/teach/ns#ects>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#ects> ;
+  rdfs:label "ects"@en ;
+  ns0:related <http://dbpedia.org/resource/European_Credit_Transfer_and_Accumulation_System> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "ects is an abstract property to express the ects (European Credit Transfer System) of the course/seminar."@en .
+
+<http://linkedscience.org/teach/ns#Module>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Module (i.e. a set of courses) which the course belongs to.
+"""@en ;
+  rdfs:label "Module"@en .
+
+<http://linkedscience.org/teach/ns#Lecture>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Lecture of the course.
+"""@en ;
+  rdfs:label "Lecture"@en .
+
+<http://linkedscience.org/teach/ns#building>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#building> ;
+  rdfs:label "room"@en ;
+  ns0:related <http://dbpedia.org/resource/Building> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "building is an abstract property to express the building where the course/seminar takes place."@en .
+
+<http://linkedscience.org/teach/ns#Course>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Course is where students are supposed to learn something.
+"""@en ;
+  rdfs:label "Course"@en .
+
+<http://linkedscience.org/teach/ns#Building>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Building where the course is taking place.
+"""@en ;
+  rdfs:label "Building"@en .
+
+<http://linkedscience.org/teach/ns#Teacher>
+  a owl:Class ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns> ;
+  rdfs:comment """Teacher of the course.
+"""@en ;
+  rdfs:label "Teacher"@en .
+
+<http://linkedscience.org/teach/ns#opponentOf>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#opponentOf> ;
+  rdfs:label "opponentOf"@en ;
+  rdfs:range foaf:Agent ;
+  rdfs:domain foaf:Agent ;
+  rdfs:comment "opponentOf is an abstract property to state that a student is an opponent of another, i.e. that he/she makes review of the other student's seminar work."@en .
+
+<http://linkedscience.org/teach/ns/>
+  a foaf:Document ;
+  xhv:license <http://creativecommons.org/licenses/by/1.0/> ;
+  rdfs:label "Document that defines the Teaching Core Vocabulary"@en ;
+  foaf:primaryTopic <http://linkedscience.org/teach/ns#> ;
+  dc:conformsTo <http://www.w3.org/TR/rdfa-syntax> ;
+  dc:title "Teaching Core Vocabulary Specification"@en ;
+  dc:description "This documents specifies the classes and properties introduced by the TEACH core vocabulary."@en .
+
+<http://linkedscience.org/teach/ns#>
+  a owl:Ontology, <http://purl.org/net/provenance/ns#DataItem> ;
+  dc:creator <http://kauppinen.net/tomi#me> ;
+  ns1:createdBy [
+    a ns1:DataCreation ;
+    ns1:performedAt "2013-03-15T09:30:00Z"^^xsd:dateTime ;
+    ns1:performedBy <http://kauppinen.net/tomi#me>
+  ] ;
+  dc:title "Teaching Core Vocabulary namespace"@en ;
+  dc:created "2013-03-15T09:30:00Z"^^xsd:dateTime ;
+  dc:description """TEACH, the Teaching Core Vocabulary,
+is a lightweight vocabulary providing terms to enable teachers to relate things in their courses together.
+The Teaching Core Vocabulary is based on practical requirements set by providing seminar and course descriptions as Linked Data.
+"""@en .
+
+<http://linkedscience.org/teach/ns#reportTemplate>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#reportTemplate> ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "reportTemplate is an abstract property to relate a report template to the course/seminar so that students may use it to write their reports."@en ;
+  rdfs:label "reportTemplate"@en .
+
+<http://linkedscience.org/teach/ns#courseDescription>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://linkedscience.org/teach/ns#courseDescription> ;
+  rdfs:subPropertyOf dc:description ;
+  ns0:related <http://dbpedia.org/page/Course_(education)> ;
+  rdfs:label "courseDescription"@en ;
+  rdfs:domain owl:thing ;
+  rdfs:comment "courseDescription is subproperty of dc:description to specify the course description"@en .
+
+<http://kauppinen.net/tomi#me>
+  a foaf:Person ;
+  foaf:homepage <http://kauppinen.net/tomi> ;
+  foaf:name "Tomi Kauppinen"@en .
+
