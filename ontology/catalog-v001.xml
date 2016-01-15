@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://xmlns.com/foaf/0.1/" uri="http://xmlns.com/foaf/spec/index.rdf"/>
-    <uri id="Imports Wizard Entry" name="http://linkedscience.org/teach/ns#" uri="http://linkedscience.org/teach/ns/teach.rdf"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+    <uri id="Imports Wizard Entry" name="http://linkedscience.org/teach/ns#" uri="resources/teach.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://xmlns.com/foaf/0.1/" uri="resources/foaf.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.org/vocab/aiiso/schema#" uri="resources/aiiso.ttl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1452867715373" name="http://ifs.tuwien.ac.at/tulid/group05" uri="onotlogy.owl"/>
+    </group>
 </catalog>
