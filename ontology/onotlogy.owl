@@ -30,6 +30,89 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseTaughtBy -->
+
+    <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseTaughtBy">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#taughtBy -->
+
+    <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#taughtBy">
+        <owl:inverseOf rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#teacherOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://linkedscience.org/teach/ns#Teacher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#teacherOf -->
+
+    <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#teacherOf">
+        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Teacher"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseDescription">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The description (goals, content, further information ...) of a course.</rdfs:comment>
+        <rdfs:label>Course description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseEcts -->
+
+    <owl:DatatypeProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseEcts">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>ECTs of a course.</rdfs:comment>
+        <rdfs:label>Course ECTs</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseType -->
+
+    <owl:DatatypeProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseType">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The type of a course. (VU, VO, UE, ...)</rdfs:comment>
+        <rdfs:label>Course type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -41,15 +124,11 @@
     <!-- http://ifs.tuwien.ac.at/tulid/group05#Teacher -->
 
     <owl:Class rdf:about="http://ifs.tuwien.ac.at/tulid/group05#Teacher">
-        <owl:equivalentClass rdf:resource="http://linkedscience.org/teach/ns#Teacher"/>
+        <rdfs:subClassOf rdf:resource="http://linkedscience.org/teach/ns#Teacher"/>
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>A teacher, who teaches a course.</rdfs:comment>
+        <rdfs:label>Teacher.</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://linkedscience.org/teach/ns#Teacher -->
-
-    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Teacher"/>
 </rdf:RDF>
 
 
