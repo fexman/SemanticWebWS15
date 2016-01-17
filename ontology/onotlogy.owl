@@ -41,6 +41,30 @@
     
 
 
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseOfType -->
+
+    <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseOfType">
+        <owl:inverseOf rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#courseType"/>
+        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#CourseType"/>
+        <rdfs:range rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
+        <rdfs:comment>Inverse property of courseType.</rdfs:comment>
+        <rdfs:label>courseOfType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseType -->
+
+    <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
+        <rdfs:range rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#CourseType"/>
+        <rdfs:comment>Connect a course to its type.</rdfs:comment>
+        <rdfs:label>courseType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ifs.tuwien.ac.at/tulid/group05#inSemester -->
 
     <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#inSemester">
@@ -140,21 +164,11 @@
     <!-- http://ifs.tuwien.ac.at/tulid/group05#courseTitle -->
 
     <owl:DatatypeProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseTitle">
+        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The title of a course.</rdfs:comment>
         <rdfs:label>courseTitle</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://linkedscience.org/teach/ns#courseTitle"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://ifs.tuwien.ac.at/tulid/group05#courseType -->
-
-    <owl:DatatypeProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#courseType">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>The type of a course. (VU, VO, UE, ...)</rdfs:comment>
-        <rdfs:label>Course type</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -177,6 +191,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
         <rdfs:comment>A course which is taught by a teacher.</rdfs:comment>
         <rdfs:label>Course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#CourseType -->
+
+    <owl:Class rdf:about="http://ifs.tuwien.ac.at/tulid/group05#CourseType">
+        <rdfs:comment>The type of a course.</rdfs:comment>
+        <rdfs:label>CourseType</rdfs:label>
     </owl:Class>
     
 

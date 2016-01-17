@@ -1,0 +1,570 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://localhost:3333/course/Advanced_Information_Retrieval> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Advanced Information Retrieval" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Fortgeschrittene Aspekte des Information Retrieval in verschiedenen Anwendungsgebieten, insbesondere Text (aufbauende und vertiefende Kapitel), Audio und Image Retrieval, vertiefende Kapitel (Quantum IR)Prinzipien des IR Anwendungsgebiete und Feature-Raeume, Informations-Extraktion, Text Summarization, Question Answering, Retrieval-Verfahren, Relevance Feedback, Klassifikationsverfahren Vorlesungstermine: Die Lehrveranstaltung findet geblockt statt.Die genauen Termine entnehmen Sie bitte dem TUWEL.ECTS/Aufwand:Vorlesung: 7 Einheiten a 2h: 14hÜbungsbeispiele:     Ex1: 20h     Tutorial Lab: 5h     Ex2: 20hVorbereitung Prüfung: 15hPrüfung: 1hSUMME: 75h" .
+
+<http://localhost:3333/course/Advanced_Research_Lab_in_Applied_Computer_Science> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Advanced Research Lab in Applied Computer Science" ;
+	g05:courseEcts "15.0" ;
+	g05:taughtBy <http://localhost:3333/person/1022045> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Vertiefendes Forschungspraktikum zur Ergänzung von Spezialisierung/Vertiefungslehrveranstaltungen; Vorbereitung für die Einbindung in Forschungsprojekte während der Diplomarbeit." .
+
+<http://localhost:3333/course/Bachelor_Thesis> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Bachelor Thesis" ;
+	g05:courseEcts "10.0" ;
+	g05:taughtBy <http://localhost:3333/person/754841> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Im Rahmen eines Projektes wird ein dem Qualifikationsprofil des Studiums entsprechendes Thema bearbeitet.Die erzielten Ergebnisse werden neben der Aufgabenstellung, den angewandten Methoden und dem Umfeld in einer schriftlichen Abschlussarbeit dargestellt." .
+
+<http://localhost:3333/course/Digital_Preservation> g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseTitle "Digital Preservation" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Die Teilnehmer sollen detaillierte Kenntnisse in den Problemstellungen der digitalen Langzeitbewahrung im Zusammenhang mit Informationssystemen, Geschäftsprozessen, Scientific Data Management, Security und Software Development erhalten. Dazu werden insbesondere Fragen der Modellierung, des Systemdesigns sowie technische wie auch organisationale Aspekte der Langzeitarchivierung behandelt. Die Teilnehmer sollen ein grundlegendes Verständnis von Konzepten wie Ingest, Selection und Appraisal, Logical & Semantic Preservation, Workflow Modelling  und  Metadata Definition erhalten. In der Lehrveranstaltung werden auch Aspekte des Qualtiätsmangements und Audit & Zertifizierung von Archiven behandelt. Die Nachhaltigkeit von System und Prozessen und die damit verbunden Auswirkungen auf System Designs, Software Development und Data Management werden erörtert. Außerdem werden Security Themen im Zusammenhang mit der Langzeitarchivierung vorgestellt." .
+
+<http://localhost:3333/course/Digital_Preservation_-_Exercises> g05:courseType <http://localhost:3333/courseType/UE> ;
+	g05:courseTitle "Digital Preservation - Exercises" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Die Teilnehmer sollen detaillierte Kenntnisse in den Problemstellungen der digitalen Langzeitbewahrung im Zusammenhang mit Informationssystemen, Geschäftsprozessen, Scientific Data Management, Security und Software Development erhalten. Dazu werden insbesondere Fragen der Modellierung, des Systemdesigns sowie technische wie auch organisationale Aspekte der Langzeitarchivierung behandelt. Im Rahmen der Übung werden begleitende, praktische Beispiele zum Stoff der Vorlesung erarbeitet. ECTS/Aufwand:Ex1: 15hEx2: 30hEx3: 30hSumme: 75h" .
+
+<http://localhost:3333/course/Exclusive_Tutorial_for_PhD_Students> g05:courseType <http://localhost:3333/courseType/PV> ;
+	g05:courseTitle "Exclusive Tutorial for PhD Students" ;
+	g05:courseEcts "4.0" ;
+	g05:taughtBy <http://localhost:3333/person/1022045> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Intensive Behandlung der Dissertationsthemen" .
+
+<http://localhost:3333/course/From_Design_to_Software_2> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "From Design to Software 2" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Vertrautmachen mit dem iterativen Prozeß des Human-Centered Visualization Design (bestehend aus Problemanalyse, Visualisierungsdesign, Implementierung/Prototyping und Evaluierung) und Erlangen der notwendigen Fähigkeiten um diesen Prozeß praktisch im Rahmen eines Softwareprojekts für ein Visualisierungssystem umzusetzen." .
+
+<http://localhost:3333/course/Information_Retrieval> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Information Retrieval" ;
+	g05:courseEcts "4.5" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Prinzipien des Information Retrieval in verschiedenen Anwendungsgebieten, insbesondere Text, Audio, oder Image Retrieval" .
+
+<http://localhost:3333/course/Introduction_to_Informatics_Didactics> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Introduction to Informatics Didactics" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/628981> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Begriffe aus der Fachdidaktik verstehen. Grundlegende Ansätze der Fachdidaktik Informatik verstehen und anwenden können, insbesondere zum systematischen Erlernen von Konzepten und Methoden der Informatik wie zB Algorithmen und Programmierung" .
+
+<http://localhost:3333/course/Leadership_Competency_Coaching_1> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Leadership Competency Coaching 1" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/2424941> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Für organisatorische Fragen kontaktieren Sie bitte Herrn Dr. Pichlmair: pichlm@dbai.tuwien.ac.at Die TeilnehmerInnen erlernen grundlegend Coaching als Instrument der Gesprächsführung und auch als Führungsinstrument kennen. Zahlreiche praktische Übungen vertiefen die Kenntnisse." .
+
+<http://localhost:3333/course/Leadership_Competency_Coaching_2> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Leadership Competency Coaching 2" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/2424941> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Erweiterung und Vertiefung der Coachingkompetenz als Führungsinstrument durch weiterführende Theorien und Techniken." .
+
+<http://localhost:3333/course/Project_in_Software_Engineering_&_Internet_Computing> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project in Software Engineering & Internet Computing" ;
+	g05:courseEcts "12.0" ;
+	g05:inSemester <http://localhost:3333/semester/2016S> .
+
+<http://localhost:3333/course/Research_seminar_for_PhD_students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Research seminar for PhD students" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Neueste Forschungsergebnisse zu verstehen, anzuwenden und auf ihre Anwendbarkeit zu prüfen. Weiterentwicklung von Forschungsergebnissen Themen     Silvia Miksch (Information Visualization, Visual Analytics, Plan Management): http://www.cvast.tuwien.ac.at/topics" .
+
+<http://localhost:3333/course/Scientific_Work> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Scientific Work" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/754841> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Im Rahmen des Seminars Wissenschaftliches Arbeiten lernen die Studierenden wissenschaftliche Methoden und den Wissenschaftsbetrieb kennen. An Hand eines vorgegebenen Themas üben sie Recherche sowie schriftliche und mündliche Präsentation." .
+
+<http://localhost:3333/course/Seminar_in_Software_Engineering> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar in Software Engineering" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/754841> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Fähigkeit zum Verfassen von wissenschaftlichen Texten in Bereich Software Entwicklung." .
+
+<http://localhost:3333/course/Seminar_on_Media_Informatics> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar on Media Informatics" ;
+	g05:courseEcts "3.0" ;
+	g05:inSemester <http://localhost:3333/semester/2016S> .
+
+<http://localhost:3333/course/Seminar_on_Security> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar on Security" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/2122205> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Ziel des Seminars ist das selbständige Literaturstudium inklusive Sekundärliteratur, Präsentation der Inhalte in einer Kleingruppe und didaktisch aufbereiteter Vortrag über ein Thema aus dem Bereich IT-Security" .
+
+<http://localhost:3333/course/Seminar:_Literature-work_for_PhD_students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar: Literature-work for PhD students" ;
+	g05:courseEcts "2.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Beherrschung der notwendigen Literaturarbeit für wissenschaftliche Forschungsarbeiten Didaktisches Vorgehen: - Individuelle Aufgaben je nach Aufgabenstellung. - Teamarbeiten sind nach Absprache mit dem BetreuerIn möglich. - Interaktiver Ablauf in Absprache mit dem BetreuerIn. - Fragestunden, Diskussionsrunden nach Bedarf." .
+
+<http://localhost:3333/course/Software_Engineering_and_Project_Management> g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseTitle "Software Engineering and Project Management" ;
+	g05:courseEcts "3.0" ;
+	g05:inSemester <http://localhost:3333/semester/2016S> .
+
+<http://localhost:3333/course/Software_Engineering_and_Projectmanagement> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Software Engineering and Projectmanagement" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/754841> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Zusammenführen der isolierten Kenntnisse und Fähigkeiten aus den relevanten vorgehenden Lehrveranstaltungen zu einer praxisnahen Gesamtsicht von der softwaretechnischen Problemstellung zur Lösung.Kenntnis der wichtigsten Begriffe der Softwaretechnik, der Bedeutung zentraler Konzepte im Software Engineering und Bewusstsein für die wesentlichen Projektphasen und -rollen Fähigkeit relevante Konzepte und Methoden für die einzelnen Phasen eines Software-Engineering-Projekts anzuwenden (Algorithmen, Datenstrukturen und Programmierung, Datenbanken, theoretischer Informatik)Kenntnis der wichtigsten Vorgehensmodelle im Software-Engineering sowie deren Unterschiede in Bezug auf konkrete EinsatzfälleFähigkeit zur Anwendung eines praxisrelevantes Software-Prozessmodells (z.B. Unified Process oder Scrum)Kenntnis der Methoden des Software-Projektmangements (z.B. Aufwandsschätzung und Risikomanagement)" .
+
+<http://localhost:3333/course/diploma_thesis_seminar> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "diploma thesis seminar" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/628981> ;
+	g05:inSemester <http://localhost:3333/semester/2016S> ;
+	g05:courseDescription "Erzielen von Fortschritten in den einzelnen Diplomarbeiten. Kennenlernen der anderen Diplomarbeiten des Instituts" .
+
+<http://localhost:3333/course/Advanced_Research_Lab_in_Applied_Computer_Science> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Advanced_Software_Engineering> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Advanced Software Engineering" ;
+	g05:courseEcts "6.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Bachelor_Thesis> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Bachelor_Thesis_for_Informatics_and_Business_Informatics> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Bachelor Thesis for Informatics and Business Informatics" ;
+	g05:courseEcts "10.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel dieser Lehrveranstaltung ist die selbständige Erarbeitung der Bachelorarbeit zu einem der verschiedenen Themen der Wirtschaftsinformatik oder Informatik." ;
+	g05:taughtBy <http://localhost:3333/person/4393001> .
+
+<http://localhost:3333/course/Business_Intelligence> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Business Intelligence" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1022045> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Lehrveranstaltung vermittelt Studierenden theoretisches sowie praktisches Wissen in den Bereichen Data Warehousing und Data Mining. Die Lehrveranstaltung besteht aus zwei Teilen:   Data Warehousing & Data Mining Grundlagen  Praktische Übung.  Der Grundlagenteil führt Data Warehousing und Data Mining Technologien, Konzepte, Architekturen, und Methoden ein. Studierende erhalten einen Überblick   zur zunehmenden Bedeutung aus großen Datenbeständen relevante Erkenntnisse zu extrahieren,   wie Data Warehousing und Data Mining unternehmerische Entscheidungen unterstützen und neue Geschäftspotentiale eröffnen kann,  wie unternehmerische Probleme und Fragestellungen mit Hilfe von Daten analysiert werden können,  Data Warehouse Architekturen und deren wirtschaftliche Anwendungen,  Architekturen, Komponenten und Prozesse in der Entwicklung von Business Intelligence Systemen,  Unterschiede zwischen OLTP Datenbanken and OLAP Systemen,  Grundlagen von Data Mining Methoden und Anwendungen,  Determinanten für die Auswahl geeigneter Data Mining Algorithmen und Methoden.  Die praktische Übung zielt auf die Entwicklung von Fähigkeiten zur Planung und Implementierung von Business Intelligence Lösungen." .
+
+<http://localhost:3333/course/Computer_Science_Project> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Computer Science Project" ;
+	g05:courseEcts "10.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Ziele werden individuell mit dem Betreuer vereinbart" .
+
+<http://localhost:3333/course/Digital_Forensics> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Digital Forensics" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3726309> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Befähigung zur Geamtbewertung und forensischen Analyse von Informationssystemen, Kenntnis von Anforderungen an ein technisches Gutachten und Befähigung zur Erstellung eines solchen" .
+
+<http://localhost:3333/course/Diploma_Students_Seminar> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Diploma Students Seminar" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1113345> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Erwerb von Techniken des Wissenschaftlichen Schreibens und Präsentierens  Vorbereitung auf den Abschlussvortrag im Rahmen der Diplomprüfung" .
+
+<http://localhost:3333/course/E-Commerce> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "E-Commerce" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/4393001> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die LV behandelt auf konzeptioneller und technischer Ebene das Fachgebiet e-commerce, mit einem Schwerpunkt auf die Planung und Entwicklung von e-commerce Lösungen" .
+
+<http://localhost:3333/course/Enterprise_Modeling_and_Business_Engineering> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Enterprise Modeling and Business Engineering" ;
+	g05:courseEcts "6.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Exclusive_Tutorial_for_PhD_Students> g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Erarbeitung von individuell auf das Dissertationsthema abgestimmten Methoden und Verfahren" .
+
+<http://localhost:3333/course/From_Design_to_Software_1> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "From Design to Software 1" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Praktische Erfahrung mit Multimedia-Werkzeugen. Umsetzung eines bekannten Software-Design." ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:courseDescription "Vertrautmachen mit dem iterativen Prozeß des Human-Centered Visualization Design (bestehend aus Problemanalyse, Visualisierungsdesign, Implementierung/Prototyping und Evaluierung) und Erlangen der notwendigen Fähigkeiten um diesen Prozeß praktisch im Rahmen eines Softwareprojekts für ein Visualisierungssystem umzusetzen." .
+
+<http://localhost:3333/course/IT_Governance> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "IT Governance" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "The aim of this course is to provide a detailed understanding on the subject of IT Governance." .
+
+<http://localhost:3333/course/Informatics_Lab_(Freifachpraktikum)> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Informatics Lab (Freifachpraktikum)" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel dieser Lehrveranstaltung ist die praktische Erfahrung in der Anwendung der verschiedenen Verfahren und Methoden der Wirtschaftsinformatik. Die Durchführung des Praktikums kann optional in Zusammenarbeit mit Wirtschaftspartnern erfolgen. Dies ist jedoch unbedingt vor Beginn des Praktikums mit der LVA-Leitung abzusprechen." .
+
+<http://localhost:3333/course/Information_Design_and_Visualization> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Information Design and Visualization" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Am Ende des Semesters sollten Sie folgende Kenntnisse, Fähigkeiten, Kompetenzen erworben haben:   Die Begriffe Informationsdesign und Informationsvisualisierung verstehen und deren Eigenschaften kennen.  Die Grundlagen der visuellen Wahrnehmung des Menschen verstehen.  Fähig sein Daten zu organisieren und zu präsentieren, indem Sie Text, Tabellen und grafische Darstellungsformen sinnvoll einsetzen und die Information somit klar und bündig vermitteln.  Die Qualität von visuellen Darstellungen, inklusive deren Mängel und manipulativem Design, beurteilen können.  Einen Überblick über verschiedene Visualisierungsmethoden und deren Besonderheiten haben und wissen in welchem Kontext diese eingesetzt werden können.  Human-centered Design und Evaluierungmethoden von Visualisierungen verstehen.  Referenzmodelle und Taxonomien zur Visualisierung kennen und die Rolle von Interaktivität verstehen." .
+
+<http://localhost:3333/course/Interdisciplinary_Research_Seminar> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Interdisciplinary Research Seminar" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Austausch zwischen den KollegiatInnen des Doktoratskollegs Adaptive Distributed Systems, Wissenserwerb durch Besuch von einschlägigen Vorträgen." .
+
+<http://localhost:3333/course/Introduction_to_Information_Retrieval> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Introduction to Information Retrieval" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Diese LVA vermittelt Grundlagen der Informationssuche in Text und Multimediadatenbeständen. Es werden verschiedene Prinzipien, Methoden und Techniken in den Bereichen Information Retrieval, gelehrt, um aus diesen großen Datenmengen Informationen abzuleiten" .
+
+<http://localhost:3333/course/Introduction_to_Security> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Introduction to Security" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3726309> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "The goal of this class is to give students an overview of information security and to teach the basics that every student needs to know, even if she does not focus on information security." .
+
+<http://localhost:3333/course/Introduction_to_Semantic_Web> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Introduction to Semantic Web" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1022045> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel dieser Lehrveranstaltung ist die Vermittlung eines Grundverständnis über Semantik und Ontologien. Dabei werden die grundlegenden Standards des Semantic Web behandelt." .
+
+<http://localhost:3333/course/Knowledge_Management> g05:courseType <http://localhost:3333/courseType/UE> ;
+	g05:courseTitle "Knowledge Management" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/44341> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Kennenlernen von Methoden des Knowledge Management" ;
+	g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseDescription "Probleme, Organisation, Methoden und Systeme des Wissensmangements kennenlernen" .
+
+<http://localhost:3333/course/Literature_Seminar_for_PhD_Students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Literature Seminar for PhD Students" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Beherrschung der Recherche und Aufarbeitung der Literatur für wissenschaftliches Arbeiten." .
+
+<http://localhost:3333/course/Management_of_Software_Projects> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Management of Software Projects" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1141265> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Erlernen der Grundlagen des Projektmanagement, mit besonderer Beruecksichtigung der Anforderungen und Eigenschaften von Softwareprojekten." .
+
+<http://localhost:3333/course/Master_Thesis_Seminar_of_Informatics_Didactics> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Master Thesis Seminar of Informatics Didactics" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/628981> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die TeilnehmerInnen sollen befähigt werden, ein Thema aus dem Bereich Informatikdidaktik für Ihre Diplomarbeit zu finden, die entsprechenden wissenschaftlichen Fragestellungen zu formulieren und einen Überblick über wissenschaftliche Methoden zu gewinnen. Befähigung zum Schreiben eines Proposals für die Diplomarbeit. Befähigung zur wissenschaftlich korrekten Durchführung einer Diplomarbeit." .
+
+<http://localhost:3333/course/Media_Understanding_Project> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Media Understanding Project" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Erfahrung mit Media-Understanding-Technologien" .
+
+<http://localhost:3333/course/Media_Understanding_Seminar> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Media Understanding Seminar" ;
+	g05:courseEcts "3.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Model_Engineering> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Model Engineering" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel des Vorlesungsteils ist es, die grundlegenden Konzepte des Model Driven Software Development (MDSD) zu erläutern, um dieses neue Paradigma der Softwareentwicklung einsetzen zu können. Ziel des Übungsteils ist es, einige MDSD-Frameworks kennen zu lernen und mit diesen ein durchgängiges Beispiel zu entwickeln. Ergebnis der Übung ist eine vollständig modellgetriebene Entwicklungsumgebung." .
+
+<http://localhost:3333/course/Multimedia> g05:courseType <http://localhost:3333/courseType/UE> ;
+	g05:courseTitle "Multimedia" ;
+	g05:courseEcts "4.0" ;
+	g05:taughtBy <http://localhost:3333/person/1113345> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Medienverarbeitung, Multimedia Programmierung und Mobile Programmierung" ;
+	g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseDescription "Vertraut werden mit gängigen MM-Konzepten, -Plattformen, -Umgebungen und -Standards; Aneignen von technischen und software-technischen Grundlagen von Multimedia." .
+
+<http://localhost:3333/course/Multimedia_Interfaces> g05:courseType <http://localhost:3333/courseType/LU> ;
+	g05:courseTitle "Multimedia Interfaces" ;
+	g05:courseEcts "1.5" ;
+	g05:taughtBy <http://localhost:3333/person/1113345> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Entwicklung und Verwendung multimedialer Schnittstellen in Virtual and Augmented Reality Anwendung." .
+
+<http://localhost:3333/course/Multimedia_Production_1:_Materials_&_Tools> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Multimedia Production 1: Materials & Tools" ;
+	g05:courseEcts "6.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Organizational_Aspects_of_IT-Security> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Organizational Aspects of IT-Security" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3726309> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel der Lehrveranstaltung ist es, ein Verständnis für die notwendige Brückenbildung zwischen technologischen und organisatorischen IT-Sicherheitsaspekten zu schaffen und vorhandenes Wissen in diesen Bereichen zu vertiefen. Zusätzlich werden die besprochenen Themen durch Experten und Vorträge aus der Praxis ergänzt." .
+
+<http://localhost:3333/course/PhD_Seminar> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "PhD Seminar" ;
+	g05:courseEcts "2.0" ;
+	g05:taughtBy <http://localhost:3333/person/1113345> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Erstellen einer wissenschaftlichen Arbeit, Abhalten von Vorträgen und Diskussion von Forschungsarbeiten." .
+
+<http://localhost:3333/course/Privacy_Enhancing_Technologies> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Privacy Enhancing Technologies" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3726309> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Grundlagen angewandter und theoretischer Forschungsarbeiten im Bereich PET (Privacy Enhancing Technology). Begleitende Übungen vertiefen die Inhalte aus der Vorlesung." .
+
+<http://localhost:3333/course/Project_from_Software_Engineering_&_Internet_Computing> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project from Software Engineering & Internet Computing" ;
+	g05:courseEcts "12.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Project_in_Computer_Science_1> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project in Computer Science 1" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Zielsetzungen des Projekts werden individuell mit dem Betreuer vereinbart." .
+
+<http://localhost:3333/course/Project_in_Medical_Informatics> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project in Medical Informatics" ;
+	g05:courseEcts "12.0" ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Bearbeitung eines größeren Projektes von der Konzeption bis zur praktischen Umsetzung, einzeln oder in einer Gruppe." .
+
+<http://localhost:3333/course/Project_in_Software_Engineering_&_Internet_Computing> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Project_in_Visual_Computing> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project in Visual Computing" ;
+	g05:courseEcts "9.0" ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Bearbeitung eines größeren Projektes von der Konzeption bis zur praktischen Umsetzung, einzeln oder in einer Gruppe." .
+
+<http://localhost:3333/course/Project_on_Software_Engineering_&_Internet_Computing> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Project on Software Engineering & Internet Computing" ;
+	g05:courseEcts "12.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel dieser Lehrveranstaltung ist die praktische Erfahrung in der Anwendung der verschiedenen Verfahren und Methoden des Software Engineering und Internet Computing. Die Durchführung des Praktikums kann optional in Zusammenarbeit mit Wirtschaftspartnern erfolgen. Dies ist jedoch unbedingt vor Beginn des Praktikums mit der LVA-Leitung abzusprechen." .
+
+<http://localhost:3333/course/Propädeutikum_für_Informatik> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Propädeutikum für Informatik" ;
+	g05:courseEcts "6.0" ;
+	g05:taughtBy <http://localhost:3333/person/628981> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Veranstaltung dient der Vorbereitung der Studierenden an die Anforderungen des Studiums. Sie schafft Transparenz bezüglich der Notwendigkeiten und Ziele der einzelnen Bachelorstudien. Weiters soll ein Grundstock an algorithmischem Denken und Computer-Literacy geschaffen werden. Diese LV kann nicht als Freifach verwendet werden." .
+
+<http://localhost:3333/course/Requirements_Engineering_and_Specification> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Requirements Engineering and Specification" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3344437> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Diese Lehrveranstaltung gibt Einführung und Überblick in das Gebiet des Requirements Engineering." .
+
+<http://localhost:3333/course/Research_Seminar_for_Ph.D._Students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Research Seminar for Ph.D. Students" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/44341> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vertiefung der Fähigkeiten zum Wissenschaftlichen Arbeiten" .
+
+<http://localhost:3333/course/Research_Seminar_for_PhD_Students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Research Seminar for PhD Students" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "- Neueste Forschungsergebnisse verstehen, anwenden und auf ihre Anwendbarkeit prüfen.- Weiterentwicklung von Forschungsergebnissen." .
+
+<http://localhost:3333/course/Research_seminar_for_PhD_students> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Scientific_Seminar_for_PhD_Students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Scientific Seminar for PhD Students" ;
+	g05:courseEcts "3.0" ;
+	g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Scientific_Work> g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:courseDescription "Praktisches Erlernen der Grundlagen wissenschaftlichen Arbeitens, insbesondere: - Literaturrecherche- Form, Struktur und Inhalt wissenschaftlicher Arbeiten- Präsentationstechnik- Begutachtung einer anderen Seminararbeit" ;
+	g05:taughtBy <http://localhost:3333/person/1113345> , <http://localhost:3333/person/44341> .
+
+<http://localhost:3333/course/Self-Organizing_Systems> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Self-Organizing Systems" ;
+	g05:courseEcts "4.5" ;
+	g05:taughtBy <http://localhost:3333/person/1026725> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Studierende sollen einen Überblick über verbreitet im Einsatz befindliche Methoden des unüberwachten Lernens gewinnen. Modelle, Theorie, Anwendungsbeispiele" .
+
+<http://localhost:3333/course/Semi-Automatic_Information_and_Knowledge_Systems> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Semi-Automatic Information and Knowledge Systems" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/17043309> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Das Ziel dieser LVA ist das theoretische und praktische Erlernen der Anwendung von Technologien des Semantic Web zur Lösung von Problemstellungen in der Informatik und in anderen verwandten Disziplinen. Diese LVA soll das Verständnis für den praktischen Einsatz von fortgeschritten Semantic Web Ansätzen fördern und gleichzeitig die praktische Machbarkeit des Einsatzes derartiger Technologien, sowohl in oft sicherheitskritischen Produktivumgebungen (z.B. Flugsicherung, Produktionsautomatisierung), als auch in Anwendungsfeldern im Bereich Software Engineering (z.B. Requirements Management) aufzeigen. Diese LVA baut auf die Einführungslehrveranstaltung 188.399 Introduction to Semantic Web auf und fokussiert auf weiterführende Themen, wie Ontology Engineering Methodologies, Semantic Web rule languages und spezifische Semantic Web Anwendungen und Technologien zur Datenintegration - Ontology Mapping und Alignment." .
+
+<http://localhost:3333/course/Seminar_for_Master_Students> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar for Master Students" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3365713> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Das Ziel dieser Lehrvanstaltung ist es Studenten vor allem während der Erstellung ihrer Diplomarbeit, aber eventuell schon davor bei der Themenfindung, zu unterstützen. Um dies zu gewährleisten erhalten Studierende Feedback durch dediziert ausgewählte Kollegen und Lehrveranstaltungsleiter, sollten aber auch durch ihre Vorträge gegenseitig von einander lernen. Zudem ist das Community Building im Bereich der Studierenden und Lehrenden der Wirtschaftsinformatik ein weiteres Ziel." ;
+	g05:taughtBy <http://localhost:3333/person/1329125> ;
+	g05:courseDescription "Präsentation der Fortschritte der eigenen Diplomarbeit. Kennenlernen der anderen Diplomarbeiten des Arbeitsbereichs." .
+
+<http://localhost:3333/course/Seminar_für_DiplomandInnen> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar für DiplomandInnen" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/44341> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vertiefung wissenschaftliches Arbeiten und Unterstützung der Erstellung einer Diplomarbeit" .
+
+<http://localhost:3333/course/Seminar_in_Software_Engineering> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Seminar_on_Computer_Vision_and_Pattern_Recognition> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar on Computer Vision and Pattern Recognition" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/610621> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vertrautmachen mit wissenschaftlicher Literatur und Methodik." .
+
+<http://localhost:3333/course/Seminar_on_Image_and_Video_Analysis_and_Synthesis> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar on Image and Video Analysis and Synthesis" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/610621> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vertrautmachen mit wissenschaftlicher Literatur und Methodik." .
+
+<http://localhost:3333/course/Seminar_on_Media_Informatics> g05:taughtBy <http://localhost:3333/person/610621> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vertrautmachen mit wissenschaftlicher Literatur und Methodik" ;
+	g05:courseEcts "2.0" ;
+	g05:taughtBy <http://localhost:3333/person/2105193> ;
+	g05:courseDescription "Suchen, Lesen, Diskussion, Präsentation von wissenschaftlicher Literatur" .
+
+<http://localhost:3333/course/Seminar_on_Medical_Informatics> g05:courseType <http://localhost:3333/courseType/SE> ;
+	g05:courseTitle "Seminar on Medical Informatics" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/3164473> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Ziel dieser Lehrveranstaltung ist die Präsentation und die damit verbundene Aufarbeitung der Resultate aus der Lehrveranstaltung Projekt Medizinische Informatik." .
+
+<http://localhost:3333/course/Seminar:_Literature-work_for_PhD_students> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Similarity_Modeling_1> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Similarity Modeling 1" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Maschinelles Medien-Verstehen" .
+
+<http://localhost:3333/course/Similarity_Modeling_2> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Similarity Modeling 2" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Maschinelles Medien-Verstehen" .
+
+<http://localhost:3333/course/Social_Media> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Social Media" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/2105193> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Vermittlung von Grundlagen Sozialer Medien und kritische Auseinandersetzung mit den Folgen der Verwendung Sozialer Medien." .
+
+<http://localhost:3333/course/Software_Engineering_and_Projectmanagement> g05:inSemester <http://localhost:3333/semester/2015W> .
+
+<http://localhost:3333/course/Strategy_Game_Programming> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Strategy Game Programming" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Studierenden kennen das grundlegende Setting von Strategie-Spielen.  Die Studierenden verstehen die grundlegenden Algorithmen von AI-Engines.  Die Studierenden haben Erfahrung mit der Implementierung von Minimax-Algorithmen sowie den dazugehörigen Heuristiken.  Die Studierenden haben Erfahrung mit der Implementierung von Monte Carlo Tree Search sowie den dazugehörigen Heuristiken (UCB1, RAVE etc.)." .
+
+<http://localhost:3333/course/Technical_design_of_learning_environments> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Technical design of learning environments" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/1556533> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Nach einem Überblick über unterschiedliche Ausprägungen informatikgestützter Lernumgebungen wird dann die Methode des game-based E-Learning herausgegriffen: Während des Semesters sollen in Teams didaktische Adventure-Spiele programmiert werden, die ein lehrplanrelevantes Thema unterhaltsam und didaktisch sinnvoll aufbereiten, und damit selbst eine explorative Lernumgebung geschaffen werden. In mehreren Schritten werden zuerst die Lernziele und die didaktischen Methoden festgelegt, die Storyline des Spiels entworfen, die Charaktere entwickelt sowie die programmiertechnische und grafische Umsetzung erarbeitet. Dabei sollen die Grundlagen von game-based E-Learning nicht nur theoretisch, sondern auch in praktischer Anwendung erlernt werden. Ziel ist die Produktion von Adventure-Spielen, die im Unterricht eingesetzt werden können. Beispiele der vergangenen Semester sind hier online: http://www.ifs.tuwien.ac.at/lernadventures" .
+
+<http://localhost:3333/course/Video_Analysis> g05:courseType <http://localhost:3333/courseType/UE> ;
+	g05:courseTitle "Video Analysis" ;
+	g05:courseEcts "1.5" ;
+	g05:taughtBy <http://localhost:3333/person/610621> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Das Ziel der Laborübung ist es, den Studierenden praktische Erfahrung mit ausgewählten Algorithmen der Videoverarbeitung zu geben." ;
+	g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseDescription "Aufbauend auf grundlegende Kenntnisse der Bildverarbeitung soll die Lehrveranstaltung einen Einblick in aktuelle Forschungsthemen und Anwendungsgebiete der Videoverarbeitung geben. Die Vorlesung befasst sich unter anderem mit Videofilterung, interaktiver Segmentierung, Bewegungsanalyse (Optical Flow), 2D-3D Konvertierung, und Aufnahme, Darstellungsformaten und Erstellung zusätzlicher Ansichten für 3D Video/TV." .
+
+<http://localhost:3333/course/Virtual_and_Augmented_Reality> g05:courseType <http://localhost:3333/courseType/UE> ;
+	g05:courseTitle "Virtual and Augmented Reality" ;
+	g05:courseEcts "4.0" ;
+	g05:taughtBy <http://localhost:3333/person/5973461> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Aufbauend auf einer Grundausbildung in Form einfacher, modularer Aufgaben sollen die notwendigen Kenntnisse vermittelt werden, eine komplexere Augmented Reality-Anwendung inklusive 3D-Tracking und 3D-Interaktion zu implementieren." ;
+	g05:courseType <http://localhost:3333/courseType/VO> ;
+	g05:courseEcts "2.0" ;
+	g05:taughtBy <http://localhost:3333/person/2067745> ;
+	g05:courseDescription "LVA Vorbesprechung (VO + UE) am 1.10.2015 um 10:30 bis ca. 11:30 im Zemanek HS! Die Vorlesung wird auch im WS 2015 GEBLOCKT abgehalten! Folgende Vorlesungstermine gelten:  ============================== Vorbesprechung am 1. 10. 10:30-11:30  Vorlesung: ALLE Einheiten werden im Zemanek HS abgehalten DO 1.10. 13-16    FR 2.10. 10-13   DI 6.10. 13-16  MI 7.10. 10-13  FR 16.10.10-13 Diese Vorlesung bietet einen Überblick und Einblick in den Bereich Virtual und Augmented Reality und informiert über den aktuellen Stand der Forschung. Teilnehmern wird ein Grundwissen über VR Hardware, Software und benutzerspezifische Aspekte vermittelt, deren Kenntnisse wichtig für das Verständnis von VR Anwendungen und von aktuellen Publikationen sind." .
+
+<http://localhost:3333/course/Visual_Computing_Project> g05:courseType <http://localhost:3333/courseType/PR> ;
+	g05:courseTitle "Visual Computing Project" ;
+	g05:courseEcts "9.0" ;
+	g05:taughtBy <http://localhost:3333/person/1146477> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Ziele werden individuell mit dem Betreuer vereinbart" .
+
+<http://localhost:3333/course/Web_Science> g05:courseType <http://localhost:3333/courseType/VU> ;
+	g05:courseTitle "Web Science" ;
+	g05:courseEcts "3.0" ;
+	g05:taughtBy <http://localhost:3333/person/530713> ;
+	g05:inSemester <http://localhost:3333/semester/2015W> ;
+	g05:courseDescription "Die Lehrveranstaltung bietet eine Einführung in die strukturelle Analyse von sozialen und Informations-Netzwerken, insbesondere des World Wide Webs. Die TeilnehmerInnen sollen Grundkenntnisse über Methoden und Tools der Netzwerkanalyse erlangen sowie sich mit den theoretischen Grundlagen dieses Gebiets auseinandersetzen." .
+
+<http://localhost:3333/course/diploma_thesis_seminar> g05:inSemester <http://localhost:3333/semester/2015W> .
