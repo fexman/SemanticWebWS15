@@ -93,7 +93,7 @@
     <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#taughtBy">
         <owl:inverseOf rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#teacherOf"/>
         <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
-        <rdfs:range rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Teacher"/>
+        <rdfs:range rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Person"/>
         <rdfs:label>States that a specific course is taught by a specific teacher.</rdfs:label>
         <rdfs:label>taughtBy</rdfs:label>
     </owl:ObjectProperty>
@@ -104,7 +104,7 @@
 
     <owl:ObjectProperty rdf:about="http://ifs.tuwien.ac.at/tulid/group05#teacherOf">
         <rdfs:subPropertyOf rdf:resource="http://linkedscience.org/teach/ns#teacherOf"/>
-        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Teacher"/>
+        <rdfs:domain rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Person"/>
         <rdfs:range rdf:resource="http://ifs.tuwien.ac.at/tulid/group05#Course"/>
         <rdfs:comment>States that a specific teacher is teaches a specific course.</rdfs:comment>
         <rdfs:label>teacherOf</rdfs:label>
@@ -224,22 +224,22 @@
     
 
 
+    <!-- http://ifs.tuwien.ac.at/tulid/group05#Person -->
+
+    <owl:Class rdf:about="http://ifs.tuwien.ac.at/tulid/group05#Person">
+        <rdfs:subClassOf rdf:resource="http://linkedscience.org/teach/ns#Teacher"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>A person who is affiliated with the TU Wien.</rdfs:comment>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ifs.tuwien.ac.at/tulid/group05#Semester -->
 
     <owl:Class rdf:about="http://ifs.tuwien.ac.at/tulid/group05#Semester">
         <rdfs:comment>A semester of a study year. (g.e. WS2015, SS2016, ...)</rdfs:comment>
         <rdfs:label>Semester</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ifs.tuwien.ac.at/tulid/group05#Teacher -->
-
-    <owl:Class rdf:about="http://ifs.tuwien.ac.at/tulid/group05#Teacher">
-        <rdfs:subClassOf rdf:resource="http://linkedscience.org/teach/ns#Teacher"/>
-        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:comment>A teacher, who teaches a course.</rdfs:comment>
-        <rdfs:label>Teacher.</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
