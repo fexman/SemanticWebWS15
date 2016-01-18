@@ -1,0 +1,1111 @@
+﻿@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/person/124531> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Biffl Stefan" ;
+	foaf:firstname "Stefan" ;
+	foaf:lastname "Biffl" ;
+	foaf:email "stefan.biffl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/184029> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Moser Valentin" ;
+	foaf:firstname "Valentin" ;
+	foaf:lastname "Moser" ;
+	foaf:email "valentin.moser@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39902> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Tjoa A Min" ;
+	foaf:firstname "A Min" ;
+	foaf:lastname "Tjoa" ;
+	foaf:email "a.tjoa@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/110737> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Hofreiter Birgit" ;
+	foaf:firstname "Birgit" ;
+	foaf:lastname "Hofreiter" ;
+	foaf:email "birgit.hofreiter@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/186791> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Floyd Christiane" ;
+	foaf:firstname "Christiane" ;
+	foaf:lastname "Floyd" ;
+	foaf:email "christiane.floyd@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/253852> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kleine Kristoffer" ;
+	foaf:firstname "Kristoffer" ;
+	foaf:lastname "Kleine" ;
+	foaf:email "kristoffer.kleine@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/232915> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mätzler Emanuel" ;
+	foaf:firstname "Emanuel" ;
+	foaf:lastname "Mätzler" ;
+	foaf:email "emanuel.maetzler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/37619> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Pichler Christian" ;
+	foaf:firstname "Christian" ;
+	foaf:lastname "Pichler" ;
+	foaf:email "christian.e188.pichler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/79738> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Winkler Severin" ;
+	foaf:firstname "Severin" ;
+	foaf:lastname "Winkler" ;
+	foaf:email "severin.winkler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/59739> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Czerny Rene" ;
+	foaf:firstname "Rene" ;
+	foaf:lastname "Czerny" ;
+	foaf:email "rene.czerny@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/159676> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Breiteneder Christian" ;
+	foaf:firstname "Christian" ;
+	foaf:lastname "Breiteneder" ;
+	foaf:email "christian.breiteneder@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/269298> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ekaputra Fajar Juang" ;
+	foaf:firstname "Fajar Juang" ;
+	foaf:lastname "Ekaputra" ;
+	foaf:email "fajar.ekaputra@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/58429> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mossel Annette" ;
+	foaf:firstname "Annette" ;
+	foaf:lastname "Mossel" ;
+	foaf:email "annette.mossel@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/239780> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Piroi Florina Mihaela" ;
+	foaf:firstname "Florina Mihaela" ;
+	foaf:lastname "Piroi" ;
+	foaf:email "florina.piroi@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/233383> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Neubauer Patrick" ;
+	foaf:firstname "Patrick" ;
+	foaf:lastname "Neubauer" ;
+	foaf:email "patrick.neubauer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/54567> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Musil Jürgen" ;
+	foaf:firstname "Jürgen" ;
+	foaf:lastname "Musil" ;
+	foaf:email "juergen.musil@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/89272> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Katzenbeisser Stefan" ;
+	foaf:firstname "Stefan" ;
+	foaf:lastname "Katzenbeisser" ;
+	foaf:email "stefan.katzenbeisser@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/286082> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Delic Amra" ;
+	foaf:firstname "Amra" ;
+	foaf:lastname "Delic" ;
+	foaf:email "amra.delic@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/60036> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rausch Thomas" ;
+	foaf:firstname "Thomas" ;
+	foaf:lastname "Rausch" ;
+	foaf:email "thomas.rausch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/134749> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Miksch Silvia" ;
+	foaf:firstname "Silvia" ;
+	foaf:lastname "Miksch" ;
+	foaf:email "silvia.miksch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/63348> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Aigner Wolfgang" ;
+	foaf:firstname "Wolfgang" ;
+	foaf:lastname "Aigner" ;
+	foaf:email "wolfgang.aigner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/246928> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Röthlin Jonas" ;
+	foaf:firstname "Jonas" ;
+	foaf:lastname "Röthlin" ;
+	foaf:email "jonas.roethlin@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39068> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Thamm Eduard" ;
+	foaf:firstname "Eduard" ;
+	foaf:lastname "Thamm" ;
+	foaf:email "eduard.thamm@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/288164> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sacharidis Dimitrios" ;
+	foaf:firstname "Dimitrios" ;
+	foaf:lastname "Sacharidis" ;
+	foaf:email "dimitrios.sacharidis@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/180019> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Berlanda Juri" ;
+	foaf:firstname "Juri" ;
+	foaf:lastname "Berlanda" ;
+	foaf:email "juri.berlanda@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/55607> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Prast Stefanie" ;
+	foaf:firstname "Stefanie" ;
+	foaf:lastname "Prast" ;
+	foaf:email "stefanie.prast@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/235174> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kovalenko Olga" ;
+	foaf:firstname "Olga" ;
+	foaf:lastname "Kovalenko" ;
+	foaf:email "olga.kovalenko@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/210005> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Prasch Patric" ;
+	foaf:firstname "Patric" ;
+	foaf:lastname "Prasch" ;
+	foaf:email "patric.prasch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39608> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rauber Andreas" ;
+	foaf:firstname "Andreas" ;
+	foaf:lastname "Rauber" ;
+	foaf:email "andreas.rauber@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/232367> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Vasylevska Khrystyna" ;
+	foaf:firstname "Khrystyna" ;
+	foaf:lastname "Vasylevska" ;
+	foaf:email "khrystyna.vasylevska@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/280972> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sabou Reka Marta" ;
+	foaf:firstname "Reka Marta" ;
+	foaf:lastname "Sabou" ;
+	foaf:email "reka.sabou@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/253219> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Köfler Helena" ;
+	foaf:firstname "Helena" ;
+	foaf:lastname "Köfler" ;
+	foaf:email "helena.koefler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/55890> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mayerhofer Tanja" ;
+	foaf:firstname "Tanja" ;
+	foaf:lastname "Mayerhofer" ;
+	foaf:email "tanja.mayerhofer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/177816> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kirner Corinna" ;
+	foaf:firstname "Corinna" ;
+	foaf:lastname "Kirner" ;
+	foaf:email "corinna.kirner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/275723> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Negoescu Alexandra" ;
+	foaf:firstname "Alexandra" ;
+	foaf:lastname "Negoescu" ;
+	foaf:email "alexandra.negoescu@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/83094> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ilger Michael" ;
+	foaf:firstname "Michael" ;
+	foaf:lastname "Ilger" ;
+	foaf:email "michael.ilger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/197540> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wogowitsch Stephanie" ;
+	foaf:firstname "Stephanie" ;
+	foaf:lastname "Wogowitsch" ;
+	foaf:email "stephanie.wogowitsch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/249891> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Trixner Nikolaus Franz" ;
+	foaf:firstname "Nikolaus Franz" ;
+	foaf:lastname "Trixner" ;
+	foaf:email "nikolaus.trixner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/41974> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schweikert Maria" ;
+	foaf:firstname "Maria" ;
+	foaf:lastname "Schweikert" ;
+	foaf:email "maria.schweikert@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/51776> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Stephanitsch Michael" ;
+	foaf:firstname "Michael" ;
+	foaf:lastname "Stephanitsch" ;
+	foaf:email "michael.stephanitsch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/235651> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kulmukhametov Artur" ;
+	foaf:firstname "Artur" ;
+	foaf:lastname "Kulmukhametov" ;
+	foaf:email "artur.kulmukhametov@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/289877> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ceneda Davide" ;
+	foaf:firstname "Davide" ;
+	foaf:lastname "Ceneda" ;
+	foaf:email "davide.ceneda@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/244499> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Artner Johannes Manuel" ;
+	foaf:firstname "Johannes Manuel" ;
+	foaf:lastname "Artner" ;
+	foaf:email "johannes.artner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/93425> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Fuchs Robert" ;
+	foaf:firstname "Robert" ;
+	foaf:lastname "Fuchs" ;
+	foaf:email "robert.fuchs@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40959> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schmiedecker Martin" ;
+	foaf:firstname "Martin" ;
+	foaf:lastname "Schmiedecker" ;
+	foaf:email "martin.schmiedecker@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/277526> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Novak Niina Maarit" ;
+	foaf:firstname "Niina Maarit" ;
+	foaf:lastname "Novak" ;
+	foaf:email "niina.novak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/48362> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ortner Thomas" ;
+	foaf:firstname "Thomas" ;
+	foaf:lastname "Ortner" ;
+	foaf:email "thomas.ortner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/273454> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Stallinger Friedrich" ;
+	foaf:firstname "Friedrich" ;
+	foaf:lastname "Stallinger" ;
+	foaf:email "friedrich.stallinger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/90409> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Fromm Johannes" ;
+	foaf:firstname "Johannes" ;
+	foaf:lastname "Fromm" ;
+	foaf:email "johannes.fromm@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40450> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Zachs Natascha" ;
+	foaf:firstname "Natascha" ;
+	foaf:lastname "Zachs" ;
+	foaf:email "natascha.zachs@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/288999> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Berardinelli Luca" ;
+	foaf:firstname "Luca" ;
+	foaf:lastname "Berardinelli" ;
+	foaf:email "luca.berardinelli@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/36920> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Dorn Jürgen" ;
+	foaf:firstname "Jürgen" ;
+	foaf:lastname "Dorn" ;
+	foaf:email "juergen.dorn@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/55419> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Brunthaler Stefan" ;
+	foaf:firstname "Stefan" ;
+	foaf:lastname "Brunthaler" ;
+	foaf:email "stefan.brunthaler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/180716> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Andersson Linda" ;
+	foaf:firstname "Linda" ;
+	foaf:lastname "Andersson" ;
+	foaf:email "linda.andersson@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/38392> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Gelautz Margrit" ;
+	foaf:firstname "Margrit" ;
+	foaf:lastname "Gelautz" ;
+	foaf:email "margrit.gelautz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/242355> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Siemayr Anita" ;
+	foaf:firstname "Anita" ;
+	foaf:lastname "Siemayr" ;
+	foaf:email "anita.siemayr@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/290613> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Radanitsch Jan" ;
+	foaf:firstname "Jan" ;
+	foaf:lastname "Radanitsch" ;
+	foaf:email "jan.radanitsch@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/54151> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Krombholz-Reindl Katharina" ;
+	foaf:firstname "Katharina" ;
+	foaf:lastname "Krombholz-Reindl" ;
+	foaf:email "katharina.krombholz-reindl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/249161> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rekabsaz Navid" ;
+	foaf:firstname "Navid" ;
+	foaf:lastname "Rekabsaz" ;
+	foaf:email "navid.rekabsaz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/291839> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Hackl Elisabeth" ;
+	foaf:firstname "Elisabeth" ;
+	foaf:lastname "Hackl" ;
+	foaf:email "elisabeth.hackl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/63349> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Grünbacher Paul" ;
+	foaf:firstname "Paul" ;
+	foaf:lastname "Grünbacher" ;
+	foaf:email "paul.gruenbacher@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/204182> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Novak Petr" ;
+	foaf:firstname "Petr" ;
+	foaf:lastname "Novak" ;
+	foaf:email "petr.novak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/230928> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Hager Gerhard" ;
+	foaf:firstname "Gerhard" ;
+	foaf:lastname "Hager" ;
+	foaf:email "gerhard.hager@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/118510> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Huemer Christian" ;
+	foaf:firstname "Christian" ;
+	foaf:lastname "Huemer" ;
+	foaf:email "christian.huemer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/47861> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Dabrowski Adrian Marek" ;
+	foaf:firstname "Adrian Marek" ;
+	foaf:lastname "Dabrowski" ;
+	foaf:email "adrian.dabrowski@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/50164> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schuhmacher Barbara" ;
+	foaf:firstname "Barbara" ;
+	foaf:lastname "Schuhmacher" ;
+	foaf:email "barbara.schuhmacher@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/163046> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Resseguier Alexander" ;
+	foaf:firstname "Alexander" ;
+	foaf:lastname "Resseguier" ;
+	foaf:email "alexander.resseguier@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/47885> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schuster Rainer" ;
+	foaf:firstname "Rainer" ;
+	foaf:lastname "Schuster" ;
+	foaf:email "rainer.e188.schuster@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/43441> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schrittwieser Sebastian" ;
+	foaf:firstname "Sebastian" ;
+	foaf:lastname "Schrittwieser" ;
+	foaf:email "sebastian.schrittwieser@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/42427> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ekelhart Andreas" ;
+	foaf:firstname "Andreas" ;
+	foaf:lastname "Ekelhart" ;
+	foaf:email "andreas.ekelhart@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/273346> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schaar Tristan" ;
+	foaf:firstname "Tristan" ;
+	foaf:lastname "Schaar" ;
+	foaf:email "tristan.schaar@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/59212> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wolny Sabine" ;
+	foaf:firstname "Sabine" ;
+	foaf:lastname "Wolny" ;
+	foaf:email "sabine.wolny@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/263240> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "De Moura Palotti Joao Rafael" ;
+	foaf:firstname "Joao Rafael" ;
+	foaf:lastname "De Moura Palotti" ;
+	foaf:email "joao.palotti@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/60080> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Frühwirt Peter" ;
+	foaf:firstname "Peter" ;
+	foaf:lastname "Frühwirt" ;
+	foaf:email "peter.fruehwirt@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/254446> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Engl Jonas" ;
+	foaf:firstname "Jonas" ;
+	foaf:lastname "Engl" ;
+	foaf:email "jonas.engl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/57469> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bögl Markus" ;
+	foaf:firstname "Markus" ;
+	foaf:lastname "Bögl" ;
+	foaf:email "markus.boegl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/110794> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schmalstieg Dieter" ;
+	foaf:firstname "Dieter" ;
+	foaf:lastname "Schmalstieg" ;
+	foaf:email "dieter.schmalstieg@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/50919> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Lidy Thomas" ;
+	foaf:firstname "Thomas" ;
+	foaf:lastname "Lidy" ;
+	foaf:email "thomas.lidy@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/274851> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Füvesi Daniel" ;
+	foaf:firstname "Daniel" ;
+	foaf:lastname "Füvesi" ;
+	foaf:email "daniel.fuevesi@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/69725> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Tran Hieu" ;
+	foaf:firstname "Hieu" ;
+	foaf:lastname "Tran" ;
+	foaf:email "hieu.tran@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/49941> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Zapletal Marco" ;
+	foaf:firstname "Marco" ;
+	foaf:lastname "Zapletal" ;
+	foaf:email "marco.zapletal@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/51423> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Brandic Ivona" ;
+	foaf:firstname "Ivona" ;
+	foaf:lastname "Brandic" ;
+	foaf:email "ivona.brandic@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/249951> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Pawlata Markus" ;
+	foaf:firstname "Markus" ;
+	foaf:lastname "Pawlata" ;
+	foaf:email "markus.pawlata@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/58633> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sessa Vincenzo" ;
+	foaf:firstname "Vincenzo" ;
+	foaf:lastname "Sessa" ;
+	foaf:email "vincenzo.sessa@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/254159> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rydzi Filip" ;
+	foaf:firstname "Filip" ;
+	foaf:lastname "Rydzi" ;
+	foaf:email "filip.rydzi@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/264248> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Fleck Martin" ;
+	foaf:firstname "Martin" ;
+	foaf:lastname "Fleck" ;
+	foaf:email "martin.fleck@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/279681> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "King Jack" ;
+	foaf:firstname "Jack" ;
+	foaf:lastname "King" ;
+	foaf:email "jack.king@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/41158> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Taha Abdel Aziz" ;
+	foaf:firstname "Abdel Aziz" ;
+	foaf:lastname "Taha" ;
+	foaf:email "abdel.aziz.taha@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/47055> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wimmer Manuel" ;
+	foaf:firstname "Manuel" ;
+	foaf:lastname "Wimmer" ;
+	foaf:email "manuel.wimmer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/251898> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Buchberger Bruno" ;
+	foaf:firstname "Bruno" ;
+	foaf:lastname "Buchberger" ;
+	foaf:email "bruno.buchberger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/252536> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schrack Maximilian" ;
+	foaf:firstname "Maximilian" ;
+	foaf:lastname "Schrack" ;
+	foaf:email "maximilian.schrack@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/283371> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Erler Philipp" ;
+	foaf:firstname "Philipp" ;
+	foaf:lastname "Erler" ;
+	foaf:email "philipp.erler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/46406> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kaufmann Hannes" ;
+	foaf:firstname "Hannes" ;
+	foaf:lastname "Kaufmann" ;
+	foaf:email "hannes.kaufmann@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/46148> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Pölsler Julian Roman" ;
+	foaf:firstname "Julian Roman" ;
+	foaf:lastname "Pölsler" ;
+	foaf:email "julian.poelsler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/88078> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Neidhardt Julia" ;
+	foaf:firstname "Julia" ;
+	foaf:lastname "Neidhardt" ;
+	foaf:email "julia.neidhardt@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/48412> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bleyer Michael" ;
+	foaf:firstname "Michael" ;
+	foaf:lastname "Bleyer" ;
+	foaf:email "michael.bleyer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/52127> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mordinyi Richard" ;
+	foaf:firstname "Richard" ;
+	foaf:lastname "Mordinyi" ;
+	foaf:email "richard.mordinyi@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/53451> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mitrovic Dalibor" ;
+	foaf:firstname "Dalibor" ;
+	foaf:lastname "Mitrovic" ;
+	foaf:email "dalibor.mitrovic@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/183781> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Nowak Milena" ;
+	foaf:firstname "Milena" ;
+	foaf:lastname "Nowak" ;
+	foaf:email "milena.nowak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/46416> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Lissa Ingrid" ;
+	foaf:firstname "Ingrid" ;
+	foaf:lastname "Lissa" ;
+	foaf:email "ingrid.lissa@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/53147> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Krajiczek Martin Peter" ;
+	foaf:firstname "Martin Peter" ;
+	foaf:lastname "Krajiczek" ;
+	foaf:email "martin.krajiczek@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/51602> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Becker Christoph" ;
+	foaf:firstname "Christoph" ;
+	foaf:lastname "Becker" ;
+	foaf:email "christoph.becker@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/252621> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Pilz Elisabeth" ;
+	foaf:firstname "Elisabeth" ;
+	foaf:lastname "Pilz" ;
+	foaf:email "elisabeth.pilz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/97117> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Eidenberger Horst" ;
+	foaf:firstname "Horst" ;
+	foaf:lastname "Eidenberger" ;
+	foaf:email "horst.eidenberger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/147972> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kappel Gertrude" ;
+	foaf:firstname "Gertrude" ;
+	foaf:lastname "Kappel" ;
+	foaf:email "gertrude.kappel@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/205853> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Fehrenbach Franca-Sofia" ;
+	foaf:firstname "Franca-Sofia" ;
+	foaf:lastname "Fehrenbach" ;
+	foaf:email "franca-sofia.fehrenbach@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40923> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Gerstweiler Georg" ;
+	foaf:firstname "Georg" ;
+	foaf:lastname "Gerstweiler" ;
+	foaf:email "georg.gerstweiler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/191160> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sindelar Radek" ;
+	foaf:firstname "Radek" ;
+	foaf:lastname "Sindelar" ;
+	foaf:email "radek.sindelar@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/54835> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schönauer Christian" ;
+	foaf:firstname "Christian" ;
+	foaf:lastname "Schönauer" ;
+	foaf:email "christian.schoenauer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/273950> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Watzinger Tobias" ;
+	foaf:firstname "Tobias" ;
+	foaf:lastname "Watzinger" ;
+	foaf:email "tobias.watzinger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/279186> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Simos Dimitrios" ;
+	foaf:firstname "Dimitrios" ;
+	foaf:lastname "Simos" ;
+	foaf:email "dimitrios.simos@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/68492> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Seidemann Matthias" ;
+	foaf:firstname "Matthias" ;
+	foaf:lastname "Seidemann" ;
+	foaf:email "matthias.seidemann@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/272071> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Amor-Amoros Albert" ;
+	foaf:firstname "Albert" ;
+	foaf:lastname "Amor-Amoros" ;
+	foaf:email "albert.amor-amoros@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/230204> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kafka Philipp" ;
+	foaf:firstname "Philipp" ;
+	foaf:lastname "Kafka" ;
+	foaf:email "philipp.kafka@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39017> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Zaharieva Maia" ;
+	foaf:firstname "Maia" ;
+	foaf:lastname "Zaharieva" ;
+	foaf:email "maia.zaharieva@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/287473> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Metallidis Sokratis" ;
+	foaf:firstname "Sokratis" ;
+	foaf:lastname "Metallidis" ;
+	foaf:email "metallidis.sokratis@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/56607> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bors Christian" ;
+	foaf:firstname "Christian" ;
+	foaf:lastname "Bors" ;
+	foaf:email "christian.bors@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39660> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Nezveda Matej" ;
+	foaf:firstname "Matej" ;
+	foaf:lastname "Nezveda" ;
+	foaf:email "matej.nezveda@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/287915> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kotvojs Elisabeth" ;
+	foaf:firstname "Elisabeth" ;
+	foaf:lastname "Kotvojs" ;
+	foaf:email "elisabeth.kotvojs@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/275253> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Molnar David Bese" ;
+	foaf:firstname "David Bese" ;
+	foaf:lastname "Molnar" ;
+	foaf:email "david.molnar@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/82129> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wally Bernhard" ;
+	foaf:firstname "Bernhard" ;
+	foaf:lastname "Wally" ;
+	foaf:email "bernhard.wally@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/250020> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Chen Wen Chao" ;
+	foaf:firstname "Wen Chao" ;
+	foaf:lastname "Chen" ;
+	foaf:email "wen.chen@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/181520> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Maestri Luca" ;
+	foaf:firstname "Luca" ;
+	foaf:lastname "Maestri" ;
+	foaf:email "luca.maestri@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/231503> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Duretec Kresimir" ;
+	foaf:firstname "Kresimir" ;
+	foaf:lastname "Duretec" ;
+	foaf:email "kresimir.duretec@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/54398> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Werthner Hannes" ;
+	foaf:firstname "Hannes" ;
+	foaf:lastname "Werthner" ;
+	foaf:email "hannes.werthner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/231177> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kan Peter" ;
+	foaf:firstname "Peter" ;
+	foaf:lastname "Kan" ;
+	foaf:email "peter.kan@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/202333> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Caglak Bugra Deniz" ;
+	foaf:firstname "Bugra Deniz" ;
+	foaf:lastname "Caglak" ;
+	foaf:email "bugra.caglak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/51750> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Meixner Kristof" ;
+	foaf:firstname "Kristof" ;
+	foaf:lastname "Meixner" ;
+	foaf:email "kristof.meixner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/290000> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Almeida Leite Roger" ;
+	foaf:firstname "Roger" ;
+	foaf:lastname "Almeida Leite" ;
+	foaf:email "roger.leite@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/250419> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Lipani Aldo" ;
+	foaf:firstname "Aldo" ;
+	foaf:lastname "Lipani" ;
+	foaf:email "aldo.lipani@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/249575> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Perkonigg Matthias" ;
+	foaf:firstname "Matthias" ;
+	foaf:lastname "Perkonigg" ;
+	foaf:email "matthias.perkonigg@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40486> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schadler Michael" ;
+	foaf:firstname "Michael" ;
+	foaf:lastname "Schadler" ;
+	foaf:email "michael.schadler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/271197> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wetz Peter" ;
+	foaf:firstname "Peter" ;
+	foaf:lastname "Wetz" ;
+	foaf:email "peter.wetz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/280732> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bampoulidis Alexandros" ;
+	foaf:firstname "Alexandros" ;
+	foaf:lastname "Bampoulidis" ;
+	foaf:email "alexandros.bampoulidis@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/43721> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Musil Angelika" ;
+	foaf:firstname "Angelika" ;
+	foaf:lastname "Musil" ;
+	foaf:email "angelika.musil@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/205485> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Türk Oliver" ;
+	foaf:firstname "Oliver" ;
+	foaf:lastname "Türk" ;
+	foaf:email "oliver.tuerk@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/48222> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Hanbury Allan" ;
+	foaf:firstname "Allan" ;
+	foaf:lastname "Hanbury" ;
+	foaf:email "allan.hanbury@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/65493> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Steele Christopher" ;
+	foaf:firstname "Christopher" ;
+	foaf:lastname "Steele" ;
+	foaf:email "christopher.steele@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/45373> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Merzdovnik Georg" ;
+	foaf:firstname "Georg" ;
+	foaf:lastname "Merzdovnik" ;
+	foaf:email "georg.merzdovnik@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/53477> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Gschwandtner Theresia" ;
+	foaf:firstname "Theresia" ;
+	foaf:lastname "Gschwandtner" ;
+	foaf:email "theresia.gschwandtner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/190482> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Federico Paolo" ;
+	foaf:firstname "Paolo" ;
+	foaf:lastname "Federico" ;
+	foaf:email "paolo.federico@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/176844> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Weiß Sophie" ;
+	foaf:firstname "Sophie" ;
+	foaf:lastname "Weiß" ;
+	foaf:email "sophie.weiss@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/290856> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Vogiatzis Artemios" ;
+	foaf:firstname "Artemios" ;
+	foaf:lastname "Vogiatzis" ;
+	foaf:email "artemios.vogiatzis@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/59677> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bill Robert" ;
+	foaf:firstname "Robert" ;
+	foaf:lastname "Bill" ;
+	foaf:email "robert.bill@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/44139> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mazak Alexandra" ;
+	foaf:firstname "Alexandra" ;
+	foaf:lastname "Mazak" ;
+	foaf:email "alexandra.mazak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/64013> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Huber Markus" ;
+	foaf:firstname "Markus" ;
+	foaf:lastname "Huber" ;
+	foaf:email "markus.e188.huber@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/69065> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rainer Bernhard" ;
+	foaf:firstname "Bernhard" ;
+	foaf:lastname "Rainer" ;
+	foaf:email "bernhard.rainer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/45282> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Salamon Gudrun" ;
+	foaf:firstname "Gudrun" ;
+	foaf:lastname "Salamon" ;
+	foaf:email "gudrun.salamon@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/263349> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Webhofer Matthias" ;
+	foaf:firstname "Matthias" ;
+	foaf:lastname "Webhofer" ;
+	foaf:email "matthias.webhofer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/61192> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rinker Felix Paul" ;
+	foaf:firstname "Felix Paul" ;
+	foaf:lastname "Rinker" ;
+	foaf:email "felix.rinker@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/182083> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Furlan Lukas" ;
+	foaf:firstname "Lukas" ;
+	foaf:lastname "Furlan" ;
+	foaf:email "lukas.furlan@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/168779> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schauer Helmut" ;
+	foaf:firstname "Helmut" ;
+	foaf:lastname "Schauer" ;
+	foaf:email "helmut.schauer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/239778> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Lupu Mihai" ;
+	foaf:firstname "Mihai" ;
+	foaf:lastname "Lupu" ;
+	foaf:email "mihai.lupu@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/37116> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Nowak Peter" ;
+	foaf:firstname "Peter" ;
+	foaf:lastname "Nowak" ;
+	foaf:email "peter.nowak@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/241721> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mai Alexandra" ;
+	foaf:firstname "Alexandra" ;
+	foaf:lastname "Mai" ;
+	foaf:email "alexandra.mai@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/274175> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Stranner Heimo" ;
+	foaf:firstname "Heimo" ;
+	foaf:lastname "Stranner" ;
+	foaf:email "heimo.stranner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/195286> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Karagiannis Dimitris" ;
+	foaf:firstname "Dimitris" ;
+	foaf:lastname "Karagiannis" ;
+	foaf:email "dimitris.karagiannis@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/253076> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Zamyatin Alexei" ;
+	foaf:firstname "Alexei" ;
+	foaf:lastname "Zamyatin" ;
+	foaf:email "alexei.zamyatin@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/160270> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Piller Ernst" ;
+	foaf:firstname "Ernst" ;
+	foaf:lastname "Piller" ;
+	foaf:email "ernst.piller@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/56950> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sifuentes Caccire Fausto Heraldo" ;
+	foaf:firstname "Fausto Heraldo" ;
+	foaf:lastname "Sifuentes Caccire" ;
+	foaf:email "fausto.caccire@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40682> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Vonach Emanuel" ;
+	foaf:firstname "Emanuel" ;
+	foaf:lastname "Vonach" ;
+	foaf:email "emanuel.vonach@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/247245> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Podkosova Iana" ;
+	foaf:firstname "Iana" ;
+	foaf:lastname "Podkosova" ;
+	foaf:email "yana.podkosova@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/90894> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Scheiber Stefan" ;
+	foaf:firstname "Stefan" ;
+	foaf:lastname "Scheiber" ;
+	foaf:email "stefan.scheiber@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/53560> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Schindler Alexander" ;
+	foaf:firstname "Alexander" ;
+	foaf:lastname "Schindler" ;
+	foaf:email "alexander.schindler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/39063> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Ramler Rudolf" ;
+	foaf:firstname "Rudolf" ;
+	foaf:lastname "Ramler" ;
+	foaf:email "rudolf.ramler@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/134415> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Merkl Wolfdieter" ;
+	foaf:firstname "Wolfdieter" ;
+	foaf:lastname "Merkl" ;
+	foaf:email "wolfdieter.merkl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/68163> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Steyskal Simon" ;
+	foaf:firstname "Simon" ;
+	foaf:lastname "Steyskal" ;
+	foaf:email "simon.steyskal@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/40178> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Kiesling Elmar" ;
+	foaf:firstname "Elmar" ;
+	foaf:lastname "Kiesling" ;
+	foaf:email "elmar.kiesling@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/154644> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Futschek Gerald" ;
+	foaf:firstname "Gerald" ;
+	foaf:lastname "Futschek" ;
+	foaf:email "gerald.futschek@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/54162> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Weippl Edgar" ;
+	foaf:firstname "Edgar" ;
+	foaf:lastname "Weippl" ;
+	foaf:email "edgar.weippl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/37605> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Mayer Rudolf" ;
+	foaf:firstname "Rudolf" ;
+	foaf:lastname "Mayer" ;
+	foaf:email "rudolf.mayer@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/41069> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Fenz Stefan" ;
+	foaf:firstname "Stefan" ;
+	foaf:lastname "Fenz" ;
+	foaf:email "stefan.fenz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/44006> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Scholz Marion" ;
+	foaf:firstname "Marion" ;
+	foaf:lastname "Scholz" ;
+	foaf:email "marion.scholz@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/203414> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Sperl Georg" ;
+	foaf:firstname "Georg" ;
+	foaf:lastname "Sperl" ;
+	foaf:email "georg.sperl@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/246561> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Calatrava Moreno Maria del Carmen" ;
+	foaf:firstname "Maria del Carmen" ;
+	foaf:lastname "Calatrava Moreno" ;
+	foaf:email "maria.moreno@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/211126> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Heiss Michael" ;
+	foaf:firstname "Michael" ;
+	foaf:lastname "Heiss" ;
+	foaf:email "michael.heiss@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/82724> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Stefanov Veronika" ;
+	foaf:firstname "Veronika" ;
+	foaf:lastname "Stefanov" ;
+	foaf:email "veronika.stefanov@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/252293> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Bergmayr Alexander" ;
+	foaf:firstname "Alexander" ;
+	foaf:lastname "Bergmayr" ;
+	foaf:email "alexander.bergmayr@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/241708> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Konlechner Rafael" ;
+	foaf:firstname "Rafael" ;
+	foaf:lastname "Konlechner" ;
+	foaf:email "rafael.konlechner@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/44691> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Laudisi Karyn" ;
+	foaf:firstname "Karyn" ;
+	foaf:lastname "Laudisi" ;
+	foaf:email "karyn.laudisi@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/273984> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Rashed Alexander" ;
+	foaf:firstname "Alexander" ;
+	foaf:lastname "Rashed" ;
+	foaf:email "alexander.rashed@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/49286> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Lanzenberger Monika" ;
+	foaf:firstname "Monika" ;
+	foaf:lastname "Lanzenberger" ;
+	foaf:email "monika.lanzenberger@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/281480> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Brodinova Sarka" ;
+	foaf:firstname "Sarka" ;
+	foaf:lastname "Brodinova" ;
+	foaf:email "sarka.brodinova@tuwien.ac.at" .
+
+<http://127.0.0.1:3333/person/60134> rdfs:member <http://127.0.0.1:3333/institute/1606> ;
+	foaf:name "Wandl Paul Anand" ;
+	foaf:firstname "Paul Anand" ;
+	foaf:lastname "Wandl" ;
+	foaf:email "paul.wandl@tuwien.ac.at" .

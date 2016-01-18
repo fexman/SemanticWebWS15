@@ -1,0 +1,31 @@
+﻿@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/faculty/1616> a g05:Faculty ;
+	foaf:name "Fakultät für Architektur und Raumplanung" .
+
+<http://127.0.0.1:3333/faculty/1637> a g05:Faculty ;
+	foaf:name "Fakultät für Elektrotechnik und Informationstechnik" .
+
+<http://127.0.0.1:3333/faculty/1607> a g05:Faculty ;
+	foaf:name "Fakultät für Bauingenieurwesen" .
+
+<http://127.0.0.1:3333/faculty/1562> a g05:Faculty ;
+	foaf:name "Fakultät für Mathematik und Geoinformation" .
+
+<http://127.0.0.1:3333/faculty/1670> a g05:Faculty ;
+	foaf:name "Fakultät für Maschinenwesen und Betriebswissenschaften" .
+
+<http://127.0.0.1:3333/faculty/1601> a g05:Faculty ;
+	foaf:name "Fakultät für Informatik" .
+
+<http://127.0.0.1:3333/faculty/1589> a g05:Faculty ;
+	foaf:name "Fakultät für Physik" .
+
+<http://127.0.0.1:3333/faculty/1644> a g05:Faculty ;
+	foaf:name "Fakultät für Technische Chemie" .
