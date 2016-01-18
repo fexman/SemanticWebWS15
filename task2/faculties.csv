@@ -1,9 +1,9 @@
-Link,URL
-Fakultät für Architektur und Raumplanung,/adressbuch/adressbuch/fakultaet/1616
-Fakultät für Bauingenieurwesen,/adressbuch/adressbuch/fakultaet/1607
-Fakultät für Elektrotechnik und Informationstechnik,/adressbuch/adressbuch/fakultaet/1637
-Fakultät für Informatik,/adressbuch/adressbuch/fakultaet/1601
-Fakultät für Maschinenwesen und Betriebswissenschaften,/adressbuch/adressbuch/fakultaet/1670
-Fakultät für Mathematik und Geoinformation,/adressbuch/adressbuch/fakultaet/1562
-Fakultät für Physik,/adressbuch/adressbuch/fakultaet/1589
-Fakultät für Technische Chemie,/adressbuch/adressbuch/fakultaet/1644
+﻿name,name-href,address
+"Fakultät für Elektrotechnik und Informationstechnik","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1637","Gußhausstr. 25-29, 1040 Wien, Österreich"
+"Fakultät für Informatik","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1601","Erzherzog-Johann-Platz 1/180; 4. Stock, 1040 Wien, Österreich"
+"Fakultät für Architektur und Raumplanung","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1616","Karlsplatz 13, 1040 Wien, Österreich"
+"Fakultät für Technische Chemie","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1644","+43 (1) 58801 - 150 01"
+"Fakultät für Bauingenieurwesen","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1607","Karlsplatz 13, 1040 Wien, Österreich"
+"Fakultät für Mathematik und Geoinformation","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1562","c/o 403, Wiedner Hauptstraße 8, 1040 Wien, Österreich"
+"Fakultät für Maschinenwesen und Betriebswissenschaften","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1670","Getreidemarkt 9, 1060 Wien, Österreich"
+"Fakultät für Physik","https://tiss.tuwien.ac.at/adressbuch/adressbuch/fakultaet/1589","c/o 403, Wiedner Hauptstraße 8, 1040 Wien, Österreich"
