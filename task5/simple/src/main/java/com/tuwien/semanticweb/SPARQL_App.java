@@ -18,16 +18,13 @@ public class SPARQL_App {
                 "prefix owl: <http://www.w3.org/2002/07/owl#>\n" +
                 "prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#>\n" +
                 "\n" +
-                "SELECT ?name ?courseName\n" +
+                "SELECT ?courseName ?course\n" +
                 "WHERE {\n" +
                 "  ?person foaf:name " + name + ".\n" +
-                "  ?person foaf:name ?name.\n" +
                 "  ?course g05:taughtBy ?person.\n" +
                 "  ?course g05:courseTitle ?courseName\n" +
                 "}";
-
-        Dataset dataset = DatasetFactory.create();
-
+        
         Query query = QueryFactory.create(sparqlQuery);
 
         QueryExecution qe = QueryExecutionFactory.sparqlService(sparqlService, query);
