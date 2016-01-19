@@ -1,0 +1,13 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:nsA="http://somewhere/else#"
+    xmlns:cat="http://nowhere/else#">
+  <rdf:Description rdf:about="http://somewhere/else#root">
+    <nsA:P>
+      <rdf:Description rdf:about="http://somewhere/else#y">
+        <cat:Q rdf:resource="http://somewhere/else#z"/>
+      </rdf:Description>
+    </nsA:P>
+    <nsA:P rdf:resource="http://somewhere/else#x"/>
+  </rdf:Description>
+</rdf:RDF>
