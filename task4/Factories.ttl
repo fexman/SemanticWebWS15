@@ -6,26 +6,26 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<http://127.0.0.1:3333/faculty/1616> a g05:Faculty ;
+<http://localhost:3333/faculty/1616> a g05:Faculty ;
 	foaf:name "Fakultät für Architektur und Raumplanung" .
 
-<http://127.0.0.1:3333/faculty/1637> a g05:Faculty ;
+<http://localhost:3333/faculty/1637> a g05:Faculty ;
 	foaf:name "Fakultät für Elektrotechnik und Informationstechnik" .
 
-<http://127.0.0.1:3333/faculty/1607> a g05:Faculty ;
+<http://localhost:3333/faculty/1607> a g05:Faculty ;
 	foaf:name "Fakultät für Bauingenieurwesen" .
 
-<http://127.0.0.1:3333/faculty/1562> a g05:Faculty ;
+<http://localhost:3333/faculty/1562> a g05:Faculty ;
 	foaf:name "Fakultät für Mathematik und Geoinformation" .
 
-<http://127.0.0.1:3333/faculty/1670> a g05:Faculty ;
+<http://localhost:3333/faculty/1670> a g05:Faculty ;
 	foaf:name "Fakultät für Maschinenwesen und Betriebswissenschaften" .
 
-<http://127.0.0.1:3333/faculty/1601> a g05:Faculty ;
+<http://localhost:3333/faculty/1601> a g05:Faculty ;
 	foaf:name "Fakultät für Informatik" .
 
-<http://127.0.0.1:3333/faculty/1589> a g05:Faculty ;
+<http://localhost:3333/faculty/1589> a g05:Faculty ;
 	foaf:name "Fakultät für Physik" .
 
-<http://127.0.0.1:3333/faculty/1644> a g05:Faculty ;
+<http://localhost:3333/faculty/1644> a g05:Faculty ;
 	foaf:name "Fakultät für Technische Chemie" .

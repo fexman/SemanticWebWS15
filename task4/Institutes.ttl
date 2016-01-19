@@ -6,32 +6,32 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<http://127.0.0.1:3333/institute/2> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/2> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Rechnergestützte Automation" .
 
-<http://127.0.0.1:3333/institute/1605> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1605> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Computergraphik und Algorithmen" .
 
-<http://127.0.0.1:3333/institute/1624> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1624> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Gestaltungs- und Wirkungsforschung" .
 
-<http://127.0.0.1:3333/institute/1603> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1603> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Informationssysteme" .
 
-<http://127.0.0.1:3333/institute/1656> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1656> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Studiendekanat für Wirtschaftsinformatik" .
 
-<http://127.0.0.1:3333/institute/1663> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1663> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Zentrum für Koordination & Kommunikation der Fakultät für Informatik" .
 
-<http://127.0.0.1:3333/institute/1606> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1606> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Softwaretechnik und Interaktive Systeme" .
 
-<http://127.0.0.1:3333/institute/1602> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1602> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Technische Informatik" .
 
-<http://127.0.0.1:3333/institute/1655> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1655> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Studiendekanat für Informatik" .
 
-<http://127.0.0.1:3333/institute/1604> rdfs:member <http://127.0.0.1:3333/faculty/1601> ;
+<http://localhost:3333/institute/1604> rdfs:member <http://localhost:3333/faculty/1601> ;
 	foaf:name "Institut für Computersprachen" .
