@@ -7,31 +7,41 @@
 
 
 <http://localhost:3333/institute/2> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Rechnergestützte Automation" .
 
 <http://localhost:3333/institute/1605> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Computergraphik und Algorithmen" .
 
 <http://localhost:3333/institute/1624> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Gestaltungs- und Wirkungsforschung" .
 
 <http://localhost:3333/institute/1603> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Informationssysteme" .
 
 <http://localhost:3333/institute/1656> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Studiendekanat für Wirtschaftsinformatik" .
 
 <http://localhost:3333/institute/1663> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Zentrum für Koordination & Kommunikation der Fakultät für Informatik" .
 
 <http://localhost:3333/institute/1606> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Softwaretechnik und Interaktive Systeme" .
 
 <http://localhost:3333/institute/1602> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Technische Informatik" .
 
 <http://localhost:3333/institute/1655> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Studiendekanat für Informatik" .
 
 <http://localhost:3333/institute/1604> rdfs:member <http://localhost:3333/faculty/1601> ;
+        a          g05:Institute ;
 	foaf:name "Institut für Computersprachen" .
