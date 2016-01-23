@@ -32,6 +32,10 @@ public class App {
                     break;
                 case 5: SparqlService.listEmailByMember();
                     break;
+                case 6: SparqlService.listCoursesBySemester();
+                    break;
+                case 7: SparqlService.listCourseDetails();
+                    break;
             }
         }
     }
@@ -44,6 +48,8 @@ public class App {
         System.out.println("    (3) List all members by institute");
         System.out.println("    (4) List all courses by teacher");
         System.out.println("    (5) Get email of member");
+        System.out.println("    (6) List courses by semester");
+        System.out.println("    (7) List details of course");
         System.out.println("    (0) Exit application");
         System.out.println();
 

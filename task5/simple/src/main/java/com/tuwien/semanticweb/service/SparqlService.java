@@ -219,4 +219,99 @@ public class SparqlService {
                 qe.close();
         }
     }
+
+    public static void listCoursesBySemester() {
+
+        System.out.print("List courses by which semester (e.g. 2015W): ");
+        String semester = scanner.nextLine();
+
+
+        String sparqlQuery = "prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#>\n" +
+                "\n" +
+                "SELECT ?courseTitle\n" +
+                "WHERE {\n" +
+                "  ?course g05:inSemester <http://localhost:3333/semester/" + semester + ">.\n" +
+                "  ?course g05:courseTitle ?courseTitle\n" +
+                "}";
+
+
+        QueryExecution qe = null;
+
+        try {
+            Query query = QueryFactory.create(sparqlQuery);
+
+            qe = QueryExecutionFactory.sparqlService(sparqlService, query);
+
+            ResultSet results = qe.execSelect();
+
+            System.out.println("List Courses by semester " + semester + " :");
+
+
+            while (results.hasNext()) {
+
+                QuerySolution solution = results.nextSolution();
+                System.out.println("    " + solution.get("?courseTitle"));
+            }
+
+        } catch (QueryExceptionHTTP e) {
+            System.out.println("Query Exception occured! Cause: " + e.getCause());
+        } catch(QueryParseException e) {
+            System.out.println("Failed parsing Query!" + e.getCause());
+        } finally {
+            if (qe != null)
+                qe.close();
+        }
+    }
+
+    public static void listCourseDetails() {
+        System.out.print("Enter course title to list the details of: ");
+        String courseTitle = "\"" + scanner.nextLine() + "\"";
+
+
+        String sparqlQuery = "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n" +
+                "prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#>\n" +
+                "\n" +
+                "SELECT ?inSemester ?courseDescription ?courseEcts ?name\n" +
+                "WHERE {\n" +
+                "  ?course g05:courseTitle " + courseTitle + ".\n" +
+                "  ?course g05:courseDescription ?courseDescription.\n" +
+                "  ?course g05:courseEcts ?courseEcts.\n" +
+                "  ?course g05:taughtBy ?person.\n" +
+                "  ?course g05:inSemester ?inSemester.\n" +
+                "  ?person foaf:name ?name\n" +
+                "} LIMIT 1";
+
+
+        QueryExecution qe = null;
+
+        try {
+            Query query = QueryFactory.create(sparqlQuery);
+
+            qe = QueryExecutionFactory.sparqlService(sparqlService, query);
+
+            ResultSet results = qe.execSelect();
+
+            System.out.println("List details of " + courseTitle + " :");
+
+
+            while (results.hasNext()) {
+
+                QuerySolution solution = results.nextSolution();
+                System.out.println("    Description: " + solution.get("?courseDescription"));
+                System.out.println("    Ects: " + solution.get("?courseEcts"));
+                String semester = solution.get("?inSemester").toString();
+                semester = semester.substring(semester.length() - 5, semester.length());
+                System.out.println("    Semester: " + semester);
+                System.out.println("    Taught by: " + solution.get("?name"));
+            }
+
+        } catch (QueryExceptionHTTP e) {
+            System.out.println("Query Exception occured! Cause: " + e.getCause());
+        } catch(QueryParseException e) {
+            System.out.println("Failed parsing Query!" + e.getCause());
+        } finally {
+            if (qe != null)
+                qe.close();
+        }
+    }
 }
