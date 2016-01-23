@@ -50,6 +50,45 @@ public class SparqlService {
         }
     }
 
+    public static void listEmailByMember() {
+        System.out.print("Enter name of member you want the email of: ");
+        String name = "\"" + scanner.nextLine() + "\"";
+
+        String sparqlQuery = "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n" +
+                "prefix g05: <http://ifs.tuwien.ac.at/tulid/group05#>\n" +
+                "\n" +
+                "SELECT ?email\n" +
+                "WHERE {\n" +
+                "  ?member foaf:name " + name + ".\n" +
+                "  ?member foaf:email ?email\n" +
+                "}";
+
+        QueryExecution qe = null;
+
+        try {
+            Query query = QueryFactory.create(sparqlQuery);
+
+            qe = QueryExecutionFactory.sparqlService(sparqlService, query);
+
+            ResultSet results = qe.execSelect();
+
+            System.out.print("The email of " + name + " is ");
+
+
+            while (results.hasNext()) {
+
+                QuerySolution solution = results.nextSolution();
+                System.out.println(solution.get("?email"));
+            }
+
+        } catch (QueryExceptionHTTP e) {
+            System.out.println("Query Exception occured! Cause: " + e.getCause());
+        } finally {
+            if (qe != null)
+                qe.close();
+        }
+    }
+
     public static void listFaculties() {
 
         String sparqlQuery = "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n" +
