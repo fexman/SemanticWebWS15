@@ -2,11 +2,12 @@ package com.tuwien.semanticweb;
 
 import com.tuwien.semanticweb.service.SparqlService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class App {
 
-    public static void main( String[] args ) {
+    public static void main( String[] args ) throws IOException {
 
         Scanner scanner = new Scanner(System.in);
         String option = "";
@@ -21,20 +22,20 @@ public class App {
             System.out.print("Select option number: ");
             option = scanner.nextLine();
 
-            switch (Integer.parseInt(option)) {
-                case 1: SparqlService.listFaculties();
+            switch (option) {
+                case "1": SparqlService.listFaculties();
                     break;
-                case 2: SparqlService.listInstitutesByFaculty();
+                case "2": SparqlService.listInstitutesByFaculty();
                     break;
-                case 3: SparqlService.listMembersByInstitute();
+                case "3": SparqlService.listMembersByInstitute();
                     break;
-                case 4: SparqlService.listCoursesOfTeacher();
+                case "4": SparqlService.listCoursesOfTeacher();
                     break;
-                case 5: SparqlService.listEmailByMember();
+                case "5": SparqlService.listEmailByMember();
                     break;
-                case 6: SparqlService.listCoursesBySemester();
+                case "6": SparqlService.listCoursesBySemester();
                     break;
-                case 7: SparqlService.listCourseDetails();
+                case "7": SparqlService.listCourseDetails();
                     break;
             }
         }

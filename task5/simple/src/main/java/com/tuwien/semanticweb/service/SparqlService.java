@@ -3,14 +3,16 @@ package com.tuwien.semanticweb.service;
 import org.apache.jena.query.*;
 import org.apache.jena.sparql.engine.http.QueryExceptionHTTP;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class SparqlService {
 
     private static String sparqlService = "http://localhost:3030/SemanticWebWS15_G05/sparql";
-    private static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8.name());
 
-    public static void listCoursesOfTeacher() {
+    public static void listCoursesOfTeacher() throws IOException {
         System.out.print("Enter name of teacher you want the courses of: ");
         String name = "\"" + scanner.nextLine() + "\"";
 
